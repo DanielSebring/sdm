@@ -3,13 +3,19 @@
         <head>
             <title>Seattle Donut Map</title>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4iwbx7scXrYCPNMP8exnUmKcq5QOas_U&callback=myMap"></script>
+            <style>
+                #myMap {
+                  width: 600px;
+                  height: 400px;
+                }
+              </style>
         </head>
     </html>
     <body>
         <div id="container">
-            <div id="map">
-                Map Here
-            </div>
+            <div id="myMap"></div>
+    <script src="./controllers/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4iwbx7scXrYCPNMP8exnUmKcq5QOas_U&callback=myMap"></script>
         </div>
     </body>
 </DOCTYPE>
